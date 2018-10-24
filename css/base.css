@@ -1,0 +1,36 @@
+
+body,p,h1,h2,h3,h4,h5,h6,ol,dl,ul,li,dd,dt{
+	padding:0;
+	margin:0;
+	border: 0 none;
+	list-style: none;
+}
+
+body{
+	background-color: #e8e8e8;
+}
+
+img,input{
+	padding:0;
+	margin: 0;
+	border:0 none;
+	outline-style: none;
+	vertical-align: middle;
+}
+
+a{
+	text-decoration: none;
+	color:#ff6700;
+}
+
+.clearfix:after{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear:both;
+	overflow: hidden;
+}
+.clearfix{
+	zoom:1;
+}
